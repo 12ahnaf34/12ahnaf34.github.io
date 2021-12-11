@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background:url(starry_sky3.jpg);    
+    color:#14A76C;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+a {
+    margin-right: 1rem;
+    margin-left:0.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #14A76C;
+}
+
+p {
+    color:#FF652F;
+    width:fit-content;
+    font-size: 2rem;
+    margin-left:.5rem;
+    margin-bottom: 0.5rem;
+    margin-top:.5rem;
+}
+
+button {
+    background-color: #272727;
+    color:#14A76C;
+    font-size: 2rem;
+    margin-left:20px;
+    border-radius: 0.6rem;
+    width:6rem;
+}
+
+.navbar{
+    background-color: #141414;
+    color:#14A76C;
+    margin-bottom:1rem;
+}
+
+.navbar__links {
+    color:#14A76C;
+    font-size:2rem;
+}
+
+.navbar__container{
+    width:100%;
+    display:flex;
+}
+
+.all__planets:hover{
+    cursor: pointer;
+}
+
+.homworld {
+    font-size:3rem;
+}
+
+.buffer{
+    font-size:3rem;
+}
+
+.footer{
+    margin-top:80vh;
+}
